@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiring Mind - Your Trusted Recruitment Partner in India</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap" rel="stylesheet">
+    <style>
+        .hiring-mind-font {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 800;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center">
+                        <img src="logo.svg" alt="Hiring Mind" class="h-8 w-auto mr-2">
+                        <span class="text-xl hiring-mind-font" style="color: #0097b2;">Hiring Mind</span>
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="/" class="px-3 py-2 rounded-md text-sm font-medium" style="color: #0097b2;">Home</a>
+                        <a href="/services" class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium" style="hover: color: #0097b2;">Services</a>
+                        <a href="/contact" class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium" style="hover: color: #0097b2;">Contact</a>
+                    </div>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button onclick="toggleMobileMenu()" class="text-gray-700 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="/" class="block px-3 py-2 rounded-md text-base font-medium" style="color: #0097b2;">Home</a>
+                <a href="/services" class="block text-gray-700 px-3 py-2 rounded-md text-base font-medium">Services</a>
+                <a href="/contact" class="block text-gray-700 px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r text-white" style="background: linear-gradient(to right, #0097b2, #0084a5);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                    Find the Perfect Talent for Your Business
+                </h1>
+                <p class="text-xl mb-8 text-blue-100">
+                    India's Leading Recruitment Agency - Connecting Top Talent with Great Opportunities
+                </p>
+                <div class="space-x-4">
+                    <a href="/services" class="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 inline-block" style="color: #0097b2;">
+                        Our Services
+                    </a>
+                    <a href="/contact" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white transition duration-300 inline-block" style="hover: color: #0097b2;">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Hiring Mind?</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">
+                    With years of experience in the Indian recruitment market, we understand what it takes to match the right talent with the right opportunity.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-4xl mb-4" style="color: #0097b2;">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Expert Team</h3>
+                    <p class="text-gray-600">
+                        Our experienced recruiters understand industry-specific requirements and deliver quality candidates.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-4xl mb-4" style="color: #0097b2;">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Quick Turnaround</h3>
+                    <p class="text-gray-600">
+                        We pride ourselves on fast and efficient recruitment processes without compromising on quality.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-4xl mb-4" style="color: #0097b2;">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Trusted Partner</h3>
+                    <p class="text-gray-600">
+                        Building long-term relationships with both clients and candidates across India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Preview -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Services</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive recruitment solutions tailored to your needs
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg text-center hover:shadow-lg transition duration-300">
+                    <i class="fas fa-briefcase text-3xl mb-4" style="color: #0097b2;"></i>
+                    <h3 class="font-semibold mb-2">Permanent Staffing</h3>
+                    <p class="text-sm text-gray-600">Finding the right full-time talent for your organization</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center hover:shadow-lg transition duration-300">
+                    <i class="fas fa-user-clock text-3xl mb-4" style="color: #0097b2;"></i>
+                    <h3 class="font-semibold mb-2">Contract Staffing</h3>
+                    <p class="text-sm text-gray-600">Flexible workforce solutions for project-based needs</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center hover:shadow-lg transition duration-300">
+                    <i class="fas fa-user-tie text-3xl mb-4" style="color: #0097b2;"></i>
+                    <h3 class="font-semibold mb-2">Executive Search</h3>
+                    <p class="text-sm text-gray-600">Specialized recruitment for leadership positions</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center hover:shadow-lg transition duration-300">
+                    <i class="fas fa-globe text-3xl mb-4" style="color: #0097b2;"></i>
+                    <h3 class="font-semibold mb-2">Bulk Hiring</h3>
+                    <p class="text-sm text-gray-600">Large-scale recruitment for rapid expansion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient-to-r text-white py-16" style="background: linear-gradient(to right, #0097b2, #0084a5);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Find Your Perfect Match?</h2>
+            <p class="text-xl mb-8 text-blue-100">
+                Let's discuss how Hiring Mind can help you build your dream team
+            </p>
+            <a href="/contact" class="bg-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 inline-block" style="color: #0097b2;">
+                Contact Us Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Hiring Mind</h3>
+                    <p class="text-gray-400">
+                        Your trusted recruitment partner in India, connecting talent with opportunity.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="/services" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="/contact" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <p class="text-gray-400">
+                        <i class="fas fa-envelope mr-2"></i> info@hiringmind.in<br>
+                        <i class="fab fa-linkedin mr-2"></i> <a href="https://www.linkedin.com/company/hiring-mind/" target="_blank" class="hover:text-white">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
+                <p>&copy; <span id="currentYear"></span> Hiring Mind. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Set current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

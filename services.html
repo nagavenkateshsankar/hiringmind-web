@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Hiring Mind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-indigo-600">Hiring Mind</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="services.html" class="text-indigo-600 hover:text-indigo-800 px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="contact.html" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button onclick="toggleMobileMenu()" class="text-gray-700 hover:text-indigo-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="services.html" class="block text-indigo-600 hover:text-indigo-800 px-3 py-2 rounded-md text-base font-medium">Services</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-indigo-600 to-blue-500 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold mb-4">Our Services</h1>
+            <p class="text-xl text-indigo-100">Comprehensive recruitment solutions for every business need</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Permanent Staffing -->
+            <div class="mb-16">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/3 bg-indigo-600 p-8 flex items-center justify-center">
+                            <i class="fas fa-briefcase text-white text-6xl"></i>
+                        </div>
+                        <div class="md:w-2/3 p-8">
+                            <h2 class="text-2xl font-bold mb-4 text-gray-800">Permanent Staffing</h2>
+                            <p class="text-gray-600 mb-4">
+                                Finding the right permanent employees is crucial for your organization's long-term success. Our permanent staffing solutions ensure you get candidates who not only have the right skills but also fit your company culture.
+                            </p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Comprehensive candidate screening</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Background verification</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Technical and behavioral assessments</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Post-placement support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contract Staffing -->
+            <div class="mb-16">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/3 bg-blue-600 p-8 flex items-center justify-center md:order-2">
+                            <i class="fas fa-user-clock text-white text-6xl"></i>
+                        </div>
+                        <div class="md:w-2/3 p-8 md:order-1">
+                            <h2 class="text-2xl font-bold mb-4 text-gray-800">Contract Staffing</h2>
+                            <p class="text-gray-600 mb-4">
+                                Flexible workforce solutions for your project-based requirements. Our contract staffing services help you scale your team up or down based on your business needs without long-term commitments.
+                            </p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Quick deployment of resources</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Payroll and compliance management</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Flexible contract terms</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Replacement guarantee</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Executive Search -->
+            <div class="mb-16">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/3 bg-purple-600 p-8 flex items-center justify-center">
+                            <i class="fas fa-user-tie text-white text-6xl"></i>
+                        </div>
+                        <div class="md:w-2/3 p-8">
+                            <h2 class="text-2xl font-bold mb-4 text-gray-800">Executive Search</h2>
+                            <p class="text-gray-600 mb-4">
+                                Leadership hiring requires a specialized approach. Our executive search services are designed to identify and attract top-tier executives who can drive your organization's strategic goals.
+                            </p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Confidential search process</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Industry-specific expertise</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Leadership assessment</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Succession planning support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bulk Hiring -->
+            <div class="mb-16">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/3 bg-green-600 p-8 flex items-center justify-center md:order-2">
+                            <i class="fas fa-users text-white text-6xl"></i>
+                        </div>
+                        <div class="md:w-2/3 p-8 md:order-1">
+                            <h2 class="text-2xl font-bold mb-4 text-gray-800">Bulk Hiring</h2>
+                            <p class="text-gray-600 mb-4">
+                                When you need to scale rapidly, our bulk hiring services ensure you get quality talent in large numbers without compromising on the recruitment process quality.
+                            </p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Campus recruitment drives</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Walk-in interviews coordination</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Mass screening processes</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Onboarding support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RPO Services -->
+            <div class="mb-16">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-1/3 bg-red-600 p-8 flex items-center justify-center">
+                            <i class="fas fa-cogs text-white text-6xl"></i>
+                        </div>
+                        <div class="md:w-2/3 p-8">
+                            <h2 class="text-2xl font-bold mb-4 text-gray-800">Recruitment Process Outsourcing (RPO)</h2>
+                            <p class="text-gray-600 mb-4">
+                                Let us handle your entire recruitment process while you focus on your core business. Our RPO services provide end-to-end recruitment solutions tailored to your specific needs.
+                            </p>
+                            <ul class="space-y-2 text-gray-600">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Complete recruitment lifecycle management</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Dedicated recruitment team</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Technology-driven processes</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Cost-effective solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Industries We Serve</h2>
+            <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg text-center shadow-md hover:shadow-lg transition duration-300">
+                    <i class="fas fa-hard-hat text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold">Civil Engineering</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center shadow-md hover:shadow-lg transition duration-300">
+                    <i class="fas fa-bolt text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold">Electrical Engineering</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center shadow-md hover:shadow-lg transition duration-300">
+                    <i class="fas fa-tasks text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold">Planning & Management</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center shadow-md hover:shadow-lg transition duration-300">
+                    <i class="fas fa-drafting-compass text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold">Design</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center shadow-md hover:shadow-lg transition duration-300">
+                    <i class="fas fa-laptop-code text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold">IT & Software</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center shadow-md hover:shadow-lg transition duration-300">
+                    <i class="fas fa-industry text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold">Manufacturing</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center shadow-md hover:shadow-lg transition duration-300">
+                    <i class="fas fa-graduation-cap text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold">Education</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg text-center shadow-md hover:shadow-lg transition duration-300">
+                    <i class="fas fa-ellipsis-h text-3xl text-indigo-600 mb-3"></i>
+                    <h3 class="font-semibold">Others</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient-to-r from-indigo-600 to-blue-500 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Hiring Process?</h2>
+            <p class="text-xl mb-8 text-indigo-100">
+                Let's discuss how our services can meet your specific recruitment needs
+            </p>
+            <a href="contact.html" class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 inline-block">
+                Get a Free Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Hiring Mind</h3>
+                    <p class="text-gray-400">
+                        Your trusted recruitment partner in India, connecting talent with opportunity.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <p class="text-gray-400">
+                        <i class="fas fa-envelope mr-2"></i> info@hiringmind.in<br>
+                        <i class="fab fa-linkedin mr-2"></i> <a href="https://www.linkedin.com/company/hiring-mind/" target="_blank" class="hover:text-white">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
+                <p>&copy; 2024 Hiring Mind. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
